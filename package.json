@@ -1,0 +1,21 @@
+{
+  "name": "todolist_cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Ignacio Nuñez <ignacio.nusep@gmail.com>",
+  "license": "ISC",
+  "description": "Se realiza un To Do List desde la CLI de Node",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
